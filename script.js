@@ -49,6 +49,11 @@ function addPaint(divArray) {
             let randomColorvalues = [Math.floor(Math.random() * 256), Math.floor(Math.random() * 256), Math.floor(Math.random() * 256)]
             box.style.backgroundColor = `rgb(${randomColorvalues[0]},${randomColorvalues[1]},${randomColorvalues[2]})`
         })
+
+        box.addEventListener('touchmove', () => {
+            let randomColorvalues = [Math.floor(Math.random() * 256), Math.floor(Math.random() * 256), Math.floor(Math.random() * 256)]
+            box.style.backgroundColor = `rgb(${randomColorvalues[0]},${randomColorvalues[1]},${randomColorvalues[2]})`
+        })
     
     });
 }
