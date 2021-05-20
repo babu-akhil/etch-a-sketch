@@ -1,0 +1,18 @@
+.container {
+    height: 75vh;
+    width: 75vw;
+    margin-left:10vw;
+    margin-top: 5vh;
+    padding:0px;
+    
+}
+
+.diva {
+    border: 0.5px solid black;
+}
+
+#clear {
+    margin-left: 48vw;
+    margin-right: 48vw;
+    margin-top: 10vh;
+}
